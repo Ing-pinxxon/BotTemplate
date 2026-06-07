@@ -8,12 +8,8 @@ El bot soporta de forma nativa horarios comerciales, detección de días festivo
 
 ## 🚀 Cómo crear un bot para tu propio negocio en 5 minutos
 
-Hemos desarrollado un flujo automatizado para que no tengas que escribir código al configurar tu negocio:
-
-1. **Llena el cuestionario:** Abre el archivo [CUESTIONARIO.md](file:///c:/Users/Daniel/OneDrive/Documentos/BotTemplate/CUESTIONARIO.md) y responde las preguntas sobre tu negocio (identidad, productos/servicios, horarios, etc.).
-2. **Genera la configuración con IA:** Abre el archivo [PROMPT_GENERADOR.md](file:///c:/Users/Daniel/OneDrive/Documentos/BotTemplate/PROMPT_GENERADOR.md), copia su contenido y pégalo en tu asistente de IA favorito (Gemini, ChatGPT, etc.) junto con tu cuestionario completado.
-3. **Guarda la configuración:** Copia el código que te genere la IA y reemplaza el contenido de `config/bot.config.js` con él.
-4. **¡Listo para arrancar!** Lee la [Guía de Configuración](file:///c:/Users/Daniel/OneDrive/Documentos/BotTemplate/config_guide.md) para los pasos de despliegue local o producción.
+1. **Configura tu negocio:** Edita el archivo de configuración `config/bot.config.js` con los datos de tu negocio (nombre, horarios, datos de pago y placeholders de texto como catálogo, descripción, etc.).
+2. **¡Listo para arrancar!** Lee la [Guía de Configuración](file:///c:/Users/Daniel/OneDrive/Documentos/BotTemplate/config_guide.md) para conocer los pasos detallados de despliegue en local o producción.
 
 ---
 

@@ -34,8 +34,6 @@ BotTemplate/
 │       ├── history.js      # Gestor de historial de conversación en memoria
 │       └── logger.js       # Sistema de logs formateados
 ├── .env.example            # Ejemplo de variables de entorno requeridas
-├── CUESTIONARIO.md         # Formulario para que el negocio complete sus datos
-├── PROMPT_GENERADOR.md     # Instrucciones de IA para autogenerar la configuración del negocio
 ├── package.json            # Scripts de ejecución y dependencias del proyecto
 └── README.md               # Resumen de inicio rápido
 ```
@@ -59,11 +57,8 @@ BotTemplate/
    - `META_ACCESS_TOKEN`: Token de acceso permanente de Meta (solo si no usas Kapso).
    - `ADMIN_NUMBER`: Número del administrador que recibirá alertas de leads calificados.
 
-### Paso 3: Rellenar el Cuestionario y Usar la IA
-1. Abre `CUESTIONARIO.md` y completa la información de tu negocio en todas las secciones indicadas.
-2. Abre `PROMPT_GENERADOR.md`, copia todo su contenido y pégalo en un asistente de IA (como Gemini o ChatGPT).
-3. A continuación, pega el contenido completo de tu `CUESTIONARIO.md` lleno.
-4. La IA procesará la información y te entregará el código exacto que debes pegar en `config/bot.config.js`.
+### Paso 3: Configurar con tu asistente de IA (Opcional)
+Puedes utilizar un asistente de IA (como Claude, Gemini o ChatGPT) para redactar y estructurar la información del catálogo, políticas y horarios, y pedirle que te genere el objeto de configuración exacto para pegar en `config/bot.config.js`.
 
 ### Paso 4: Ajustes Finos en `config/bot.config.js`
 Si deseas realizar cambios manuales, puedes abrir `config/bot.config.js` directamente:
